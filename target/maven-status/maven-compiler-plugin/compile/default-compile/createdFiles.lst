@@ -1,0 +1,12 @@
+com\gl\srms\entity\Student.class
+com\gl\srms\config\AppInitializer.class
+com\gl\srms\config\SpringSecurityInitializer.class
+com\gl\srms\config\LoginSecurityConfig.class
+com\gl\srms\config\WebMvcConfig.class
+com\gl\srms\config\AppContext.class
+com\gl\srms\service\impl\StudentRegistrationServiceImpl.class
+com\gl\srms\controller\StudentRegistrationController.class
+com\gl\srms\dao\impl\StudentRegistrationDaoImpl.class
+com\gl\srms\dao\StudentRegistrationDao.class
+com\gl\srms\service\StudentRegistrationService.class
+com\gl\srms\controller\LoginController.class
