@@ -7,7 +7,9 @@ file path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-Assignment
 
 2) When login to the application, use the below credentials.
 
-Credentials for the Admin user with admin role
+Credentials for the Admin user with admin role:
+
+
 username : admin
 password : admin
 
