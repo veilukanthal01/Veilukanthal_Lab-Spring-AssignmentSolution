@@ -7,17 +7,17 @@ file path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-Assignment
 
 2) When login to the application, use the below credentials.
 
-Credentials for the Admin user with admin role:
+  Credentials for the Admin user with admin role:
 
 
-username : admin,
-password : admin
+  username : admin,
+  password : admin
 
-Credentials for user role
+  Credentials for user role
 
 
-username : john,
-password : john
+  username : john,
+  password : john
 
 3) This project has demo screen recodrded video.
 video file name : Demo_Video_securityApp.mp4
