@@ -10,11 +10,13 @@ file path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-Assignment
 Credentials for the Admin user with admin role:
 
 
-username : admin
+username : admin,
 password : admin
 
 Credentials for user role
-username : john
+
+
+username : john,
 password : john
 
 3) This project has demo screen recodrded video.
