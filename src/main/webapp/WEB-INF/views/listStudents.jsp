@@ -20,11 +20,19 @@
 <title>Students Directory</title>
 
 <style>
-.logoutLblPos{
+.logoutLblPos {
+	position: fixed;
+	right: 130px;
+	top: 10px;
+	left: 1450px;
+}
 
-   position:fixed;
-   right:200px;
-   top:75px;
+.header {
+	padding: 30px;
+	text-align: center;
+	background: #000080;
+	color: white;
+	font-size: 30px;
 }
 </style>
 </head>
@@ -32,48 +40,45 @@
 <body>
 
 	<div class="container">
-
-		<h3>Students List</h3>
+		<div class="header">
+			<h3>Student Registration System</h3>
+		</div>
 		<hr>
-		
-		
+
+
 		<form id="logout" action="/StudentRegitsrationApplication/logout"
-				method="post">
-				<input type="hidden" name="${_csrf.parameterName}"
-					value="${_csrf.token}" />
-		
+			method="post">
+			<input type="hidden" name="${_csrf.parameterName}"
+				value="${_csrf.token}" />
+
 
 			<sec:authorize access="isAuthenticated()">
-			 <label class="logoutLblPos">
-				<button type="submit" class="btn btn-primary btn-sm mb-3"
-					style="margin: 5px;">Logout</button>
-					</label>
+				<label class="logoutLblPos">
+					<button type="submit" class="btn btn-primary btn-sm mb-3"
+						style="margin: 5px;">Logout</button>
+				</label>
 			</sec:authorize>
-			
-				</form>
+
+		</form>
 
 		<!-- Add a search form -->
 
-		<form action="/StudentRegitsrationApplication/student/search" method="post"
-			class="form-inline">
+		<form action="/StudentRegitsrationApplication/student/search"
+			method="post" class="form-inline">
 
 			<!-- Add a button -->
 			<a href="/StudentRegitsrationApplication/student/showFormForAdd"
-				class="btn btn-primary btn-sm mb-3"> Register Student </a> 
-				
-				
-		    <input type="search" name="name" placeholder="Name"
-				class="form-control-sm ml-5 mr-2 mb-3" /> 
-				
-		     <input type="search"
+				class="btn btn-primary btn-sm mb-3"> Register Student </a> <input
+				type="search" name="name" placeholder="Name"
+				class="form-control-sm ml-5 mr-2 mb-3" /> <input type="search"
 				name="department" placeholder="Department"
-				class="form-control-sm mr-2 mb-3" /> 
-				
-				<button type="submit" class="btn btn-success btn-sm mb-3"
-				style="margin:5px;">Search</button>
+				class="form-control-sm mr-2 mb-3" />
+
+			<button type="submit" class="btn btn-success btn-sm mb-3"
+				style="margin: 5px;">Search</button>
 
 		</form>
-		
+
 
 		<table class="table table-bordered table-striped">
 			<thead class="thead-dark">

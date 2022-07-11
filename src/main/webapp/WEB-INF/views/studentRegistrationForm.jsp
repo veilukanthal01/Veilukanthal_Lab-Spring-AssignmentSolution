@@ -18,13 +18,23 @@
 	crossorigin="anonymous">
 
 <title>Register Student</title>
+<style>
+.header {
+	padding: 30px;
+	text-align: center;
+	background: #000080;
+	color: white;
+	font-size: 30px;
+}
+</style>
 </head>
 
 <body>
 
 	<div class="container">
-
-		<h3>Student Registration System</h3>
+		<div class="header">
+			<h3>Student Registration System</h3>
+		</div>
 		<hr>
 
 		<p class="h4 mb-4">Register Student</p>
@@ -39,8 +49,7 @@
 				<label for="name" class="col-sm-2 col-form-label">Student
 					Name</label>
 				<div class="col-sm-7">
-					<form:input id="name" path="name"
-							class="form-control mb-4 col-4" />
+					<form:input id="name" path="name" class="form-control mb-4 col-4" />
 
 				</div>
 
@@ -52,7 +61,7 @@
 				<div class="col-sm-7">
 
 					<form:input id="department" path="department"
-							class="form-control mb-4 col-4" />
+						class="form-control mb-4 col-4" />
 
 				</div>
 
@@ -64,18 +73,18 @@
 				<div class="col-sm-7">
 
 					<form:input id="country" path="country"
-							class="form-control mb-4 col-4" />
+						class="form-control mb-4 col-4" />
 
 				</div>
 
 			</div>
 
 			<div class="form-group row">
-					<!-- Button -->
-					<div class="col-md-offset-3 col-md-9">
-						<form:button class="btn btn-info col-2">Save</form:button>
-					</div>
+				<!-- Button -->
+				<div class="col-md-offset-3 col-md-9">
+					<form:button class="btn btn-info col-2">Save</form:button>
 				</div>
+			</div>
 
 		</form:form>
 
