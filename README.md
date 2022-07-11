@@ -21,4 +21,4 @@ file path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-Assignment
 
 3) This project has demo   video recodring.
 video file name : Demo_Video_securityApp.mp4
-path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-AssignmentSolution/blob/main/Demo_Video_securityApp.mp4
+path : https://github.com/veilukanthal01/Veilukanthal_Lab-Spring-AssignmentSolution/blob/main/Video_Recording.mp4
